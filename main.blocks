@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="ySj{6+Id32JLY_Zq^`8P" x="0" y="0"/><block type="device_forever" id="wW]As9CsM8LX8)03FgP)" x="205" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="wW]As9CsM8LX8)03FgP)" x="-48" y="37"><statement name="HANDLER"><block type="serial_writeline" id=":XW|;Jl!:`[;:{r1coSU"><value name="text"><shadow type="text" id="*wQLB1SaAj-`M*5TX/Yg"><field name="TEXT"/></shadow><block type="sonar_ping" id=":fgmuKUT/z;`=eh5p+f,"><field name="trig">DigitalPin.P1</field><field name="echo">DigitalPin.P2</field><field name="unit">PingUnit.Centimeters</field></block></value><next><block type="device_show_number" id="jk1.9o3*(ZPiZp*vE[If"><value name="number"><shadow type="math_number" id="^|$63T1)LhleYz+%$e`M"><field name="NUM">0</field></shadow><block type="sonar_ping" id=";1IxFIAC[BwI$Yj7kWN%"><field name="trig">DigitalPin.P1</field><field name="echo">DigitalPin.P2</field><field name="unit">PingUnit.Centimeters</field></block></value><next><block type="controls_if" id=".s[GP9k6;z#c_/%A~WI_"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean" id="E=~n7)g]EGIxlm+_B!]a"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="g2jqFofP7l.OjZsK/9iJ"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="hR,ka-,..Uw4K)m^3.{L"><field name="NUM">0</field></shadow><block type="sonar_ping" id=";yt/o2bZb*TAm0Z_,jH]"><field name="trig">DigitalPin.P1</field><field name="echo">DigitalPin.P2</field><field name="unit">PingUnit.Centimeters</field></block></value><value name="B"><shadow type="math_number" id="b:Zj4#C1c|x:F:,7*-*m"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="{acrW2{;O+k`CS+KnND9"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="Y~](67K);UIKzue*m_[B"><field name="LEDS">`
+        # # # . . 
+        # . . # . 
+        # # # . . 
+        # . . # . 
+        # # # . .
+        `</field></block></statement></block></next></block></next></block></statement></block><block type="serial_writestring" id=".POG?[^g%MBHoS;r~c%I" disabled="true" x="-82" y="335"><value name="text"><shadow type="text" id="=OxmWcOoSNwH9JJBf33i" disabled="true"><field name="TEXT"/></shadow></value></block></xml>
